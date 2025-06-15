@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start ForensicCapture App",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"windows-app/main.py"
+			],
+			"group": "build",
+			"isBackground": true,
+			"options": {
+				"cwd": "${workspaceFolder}"
+			}
+		}
+	]
+}
